@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    background-color:  rgb(45, 48, 54);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Fira Sans,Tahoma,Geneva, sans-serif;
+}
+
+.banner {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 16%;
+}
+
+nav {
+    background-color: rgb(45, 48, 54);
+    color: rgb(136, 136, 136);
+    width: 50%;
+    height: 60px;
+    vertical-align: middle;
+    font-family: Fira Sans,Tahoma,Geneva,sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 60px;
+    margin-top: 0;
+    font-family: Fira Sans,Tahoma,Geneva,sans-serif;
+}
+
+.nav-li-nav {
+    margin-left: 20px;
+}
+
+.nav-a-container:hover {
+    background-color: rgb(74, 74, 74);
+}
+
+.nav-a-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.nav-li {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-family: Fira Sans,Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.fa-search {
+    cursor: pointer;
+    color:rgb(136, 136, 136);   
+}
+
+.template {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    font-family: Fira Sans,Tahoma,Geneva, sans-serif;
+    font-size: 15px;
+}
+
+.template-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    height: 100%;
+}
+
+.a:hover {
+    color: yellow;
+}
+
+.template-red {
+    background-color: rgb(250, 69, 21);
+    font-family: Fira Sans,Tahoma,Geneva, sans-serif;
+    height: 60px;
+    font-size: 15px;
+}
+
+.template-red-p {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.template-red-p a {
+    color: white;
+    vertical-align: middle;
+    width: 70px;
+}
+    
+.section_card img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.section_container {
+    cursor: pointer;
+}
+
+.date {
+    margin-top: -10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;;
+    grid-gap: 2vw;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 50px;
+    color: rgb(71, 73, 78);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #000;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer_text_conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Fira Sans,Tahoma,Geneva,sans-serif;
+}
+
+.footer_text_conteiner a {
+    color: white;
+}
+
+.contacts {
+    padding-right: 100px;
+    font-family: Fira Sans,Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    height: 20%;
+}
+
+.copyright {
+    font-size: 13px;
+}
